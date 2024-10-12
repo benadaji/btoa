@@ -10,7 +10,7 @@ export default function Docs({
     } else if (params.slug.length === 1){
         return <h1>Viewing docs for feature {params.slug[0]}</h1>;
     }
-    return (
+    return ( 
       <h1>
         docs home page
       </h1>
